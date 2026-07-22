@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Shaikh Mazein Ahmed
+# 👋 Hi, I'm Mazein
 
 ### 🚀 DevOps & Cloud Enthusiast | CS Graduate | Fresher
 
@@ -76,13 +76,18 @@ Motivated and detail-oriented DevOps and Cloud enthusiast with strong hands-on e
 
 ## 🚀 Featured Projects
 
-### [GeoProteoNet — Fetal Anemia Diagnostic Pipeline](https://github.com/shaikhmazz)
-- **Infrastructure:** Architected AWS infrastructure (VPC, least-privilege IAM roles, EC2, S3 for weights/data).
-- **Containerization:** Packaged FastAPI backend and React frontend with Docker and `docker-compose`.
-- **CI/CD:** Automated testing, building, and deployment on every push using GitHub Actions.
+### [🏗️ End-to-End DevOps & Cloud Infrastructure (In Progress)](https://github.com/shaikhmazz)
+- **Application & Build:** Developing a custom application and packaging it entirely into **Docker** containers for consistency across environments.
+- **CI/CD Automation:** Designing comprehensive **Jenkins** & **GitHub Actions** pipelines to handle continuous integration, testing, and automated deployment.
+- **Infrastructure as Code (IaC):** Provisioning AWS environments programmatically using **Terraform** and automating server configurations with **Ansible**.
+- **Orchestration:** Preparing to deploy the containerized microservices onto an **AWS EKS (Kubernetes)** cluster to ensure high availability and scalability.
 
-### [Sustainable Farming Recommendation System](https://github.com/shaikhmazz)
-- **Deployment:** Containerized a robust Streamlit application utilizing Docker for cloud-agnostic deployment.
-- **Automation:** Established GitHub Actions CI/CD workflows for seamless and automated version updates.
-- **Machine Learning:** Backed by an ML pipeline using Scikit-Learn (Random Forest) for crop recommendations.
-- **Analytics:** Integrated Plotly and Power BI for data visualization on soil health and crop growth.
+### [🧬 GeoProteoNet — Fetal Anemia Diagnostic Pipeline](https://github.com/shaikhmazz)
+- **Cloud Architecture (AWS):** Designed a secure and isolated network topology using custom **VPCs**, restrictive **Security Groups**, and least-privilege **IAM roles**. Hosted model data securely on **S3** and compute workloads on **EC2**.
+- **Containerization Strategy:** Engineered multi-container environments for the React frontend and FastAPI backend using **Docker** and `docker-compose`, completely eliminating environment-consistency issues.
+- **Continuous Integration:** Implemented robust **GitHub Actions** pipelines that run automated smoke tests on every push, keeping CI fast while maintaining deployment reliability.
+
+### [🌱 Sustainable Farming Recommendation System](https://github.com/shaikhmazz)
+- **Cloud-Native Deployment:** Transformed a local Streamlit/Python application into a portable, cloud-ready service using **Docker**.
+- **Pipeline Automation:** Automated the entire release lifecycle with **GitHub Actions**, ensuring that new features and bug fixes are automatically built and deployed.
+- **Production ML Serving:** Bridged the gap between Data Science and DevOps by serving a two-stage ML pipeline (CNN & Random Forest) in a production-ready, easily scalable environment.
