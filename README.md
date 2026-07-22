@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Mazein
+# 👋 Hi, I'm Shaikh Mazein Ahmed
 
 ### 🚀 DevOps & Cloud Enthusiast | CS Graduate | Fresher
 
